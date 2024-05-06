@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (max-width:460px){
+    #nav{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 15vh;
+    }
+    #nav #logoo a{
+        margin-left: 5.5rem;
+    }
+    #menuu{
+        margin-top: 10rem;
+        display: flex;
+        padding-left: -35rem;
+        margin-top: 0%;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    #menu-list{
+        color: orange;
+        display:flex;
+        margin-left: -0.5rem;
+        padding-top: 1rem;
+      }
+      #home{
+        flex-direction:column-reverse;
+       
+        
+      }
+      #hc{
+        text-align: center;
+      }
+    #hc h3{
+        /* margin-top: -0.5rem; */
+        font-size: 1.1rem;
+        margin-left: -3.2rem;
+    }
+    #hc h1{
+        margin-left: -3.2rem;
+        font-size: 2rem;
+        /* margin-top: -2rem; */
+    }
+    #hc button{
+        margin-left: -3.2rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #hi{
+        margin-bottom: 5rem;
+        
+      }  
+    #hi img{
+        height: 55%;
+        margin-left: -14.8rem;
+        
+    }
+    #si{
+        margin-left: 0.7rem;
+        margin-bottom: 5rem;
+       }
+ 
+}
+
+   .navbar{
+    background: black;
+    padding: 0px 2rem;
+    height: 70px;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 35rem; */
+    align-items: center;
+   position: sticky;
+   top: 0px;
+   /* z-index: 10; */
+   }
+   .navbar .logo a{
+     color: orange;
+     font-size: 30px;
+     font-weight: 600;
+     text-decoration: none;
+     /* padding-left: 65%; */
+   }
+   .navbar .menu{
+     display: flex;
+    
+   }
+   .navbar .menu li{
+     list-style: none;
+     margin: 0 15px;
+   }
+   /* .navbar .logo{
+    padding-left: 15%;
+   } */
+   .navbar .menu li a{
+     color: #fff;
+     font-size: 20px;
+     font-weight: 500;
+     text-decoration: none;
+     /* display: none; */
+   }
+   .menu-icon{
+    display: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+   }
+   .cross-icon{
+    height: 1.2rem;
+    width: 1.2rem;
+    display: none;
+    cursor: pointer;
+   }
+#home{
+    
+    background-color: black;
+    
+    /* margin-top: 4rem; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-content{
+    margin-left: 25%;
+   
+    padding-top: 15%;
+}
+.home-content h3{
+    color: white;
+    font-size: 1.4rem;
+    
+    padding-top: 2%;
+}
+.home-content h1{
+    color: white;
+    font-size: 3rem;
+   
+    padding-top: 2%;
+}
+.home-content h3 span{
+    color: orange;
+    
+}
+
+.home-content button{
+    font-size: 1rem;
+    
+    margin-top: 1.5rem;
+    background: orange;
+    background: linear-gradient(177deg, orange 0%, orange 2%, orange 42%, rgb(222, 175, 87) 95%);
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+}
+
+.home-content button:hover{
+    transform: scale(1.15);
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 1.5rem;
+   }
+   .social-icons .soc{
+    
+    background: orange;
+    background: linear-gradient(177deg, orange 0%, orange 2%, orange 42%, rgb(228, 189, 115) 95%);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  
+    
+   }
+   .soc:hover{
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    
+   }
+   .soc:hover .soc i{
+    font-size: 20px;
+   }
+   .home-image{
+     margin-top: 10rem;
+   }   
+.home-image img{
+    height: 60%;
+    margin-left: 13rem;
+    
+}
+@media only screen and (max-width: 460px) {
+    #about{
+        padding-bottom: 8rem;
+    }
+    #abt-img img{
+        height: 40%;
+    }
+    #abt-img{
+        margin-left: 30%;
+        margin-top: 5%; 
+    }
+    #abt2{
+        width: 100%;
+        margin-top: -18rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    #abt2 h1{
+        margin-left: 3rem;
+        
+    }
+    #abt2 #abt-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 120%;
+    }
+    #abt2 div #sk,#abt2 div #ed,#abt2 div #ex{
+        padding-left: 0.5rem;
+    }
+    #abt-content{
+        width: 150%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #abt2 #abt-content #sk-content{
+        margin-left: -1.2rem;
+        
+    }
+    #abt2 #abt-content #ed-content{
+        margin-left: -9.7rem;
+        
+    }
+    #abt2 #abt-content #ex-content{
+        margin-left: -10rem;
+        
+    }
+}
+#about{
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(12, 11, 11);
+    height: 100vh;
+}
+
+.about1{
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.about1 img{
+    border: 1px solid white;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: 0.4px 0.4px 2px 2px rgb(231, 228, 228);
+}
+.about2{
+    margin-left: 3%;
+    margin-top: 12%;
+    width: 45%;
+}
+#about h1{
+    font-size: 2.5rem;
+    padding-left: 1.8rem;
+    color: white;
+}
+.about2 h1 span{
+    color: orange;
+}
+.about2 p{
+    font-size: 1rem;
+    padding-left: 1.8rem;
+    padding-top: 1.5rem;
+    color: white;
+}
+.about2 div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    
+}
+.about2 div h3{
+    padding: 0px 30px;
+    cursor: pointer;
+    color: white;
+    
+}
+.about2 div #ed{
+    padding-left: 10rem;
+    /* visibility: hidden; */
+}
+.about2 div #ex{
+    padding-left: 8rem;
+    /* visibility: hidden; */
+}
+.content{
+    margin-top: -2rem;
+}
+.content .skill{
+    color: orange;
+    visibility: visible;
+}
+.content .education {
+    color: orange;
+    padding-left: 5rem;
+    visibility:hidden ;
+}
+.content .experiance{
+    color: orange;
+    padding-left: 4.9rem;
+    visibility:hidden ;
+}
+@media only screen and (max-width: 460px){
+    #ph{
+        padding-left: 25%;
+    }
+}
+@media only screen and (max-width: 460px){
+    #prj{
+        display: inline-block;
+        height: 130vh;
+        width: 100%;
+        
+    }
+    #clinic-part{
+        width: 80%;
+        height: 40vh;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    #images-part{
+        width: 80%;
+        height: 40vh;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    #hotel-part{
+        width: 80%;
+        height: 40vh;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    #clinic-part h3, #images-part h3, #hotel-part h3{
+        padding-top: 20%;
+    }
+}
+.project-heading{
+    padding-left: 44%;
+    color: white;
+    background-color: black;
+    padding-top: 5%;
+    font-size: 2.2rem;
+}
+.project-heading span{
+    color: orange;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    background-color: black;
+    padding-top: 2%;
+}
+.clinic{
+    width: 20%;
+    height: 55vh;
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(128, 113, 128, 0.52),
+        rgba(54, 2, 52, 0.73)),
+        url("project1.jpg"); */
+        background-image:url("project1.jpg");
+    background-size: cover;
+    margin-left: 14rem;
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+}
+.clinic:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(122, 94, 122, 0.52),
+        rgba(149, 15, 140, 0.73)),
+        url("project1.jpg");
+}
+.clinic:hover img ,.clinic:hover h3,.clinic:hover p{
+    visibility: visible;
+}
+.images{
+    width: 20%;
+    height: 55vh;
+    background-image:url("project2.jpg");
+    background-size: cover;
+    margin-left: 4rem;
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+}
+.images:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(122, 94, 122, 0.52),
+        rgba(149, 15, 140, 0.73)),
+        url("project2.jpg");
+}
+.images:hover img ,.images:hover h3,.images:hover p{
+    visibility: visible;
+}
+.hotel{
+    width: 20%;
+    height: 55vh;
+    background-image:url("project3.jpg");
+    background-size: cover;
+    margin-left: 4rem;
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+}
+.hotel:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(122, 94, 122, 0.52),
+        rgba(149, 15, 140, 0.73)),
+        url("project3.jpg");
+        
+}
+.hotel:hover img ,.hotel:hover h3,.hotel:hover p{
+    visibility: visible;
+}
+.clinic h3,.clinic p, .images h3,.images p, .hotel h3,.hotel p{
+    color: white;
+}
+.clinic h3, .images h3, .hotel h3{
+    padding-top: 40%;
+    text-align: center;
+    visibility: hidden;
+}
+.clinic p, .images p, .hotel p{
+    padding-top: 4%;
+    text-align: center;
+    visibility: hidden;
+}
+.clinic img, .images img, .hotel img{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 40%;
+    cursor: pointer;
+    visibility: hidden;
+}
+@media only screen and (max-width:460px) {
+    #ch{
+        padding-top: 2rem;
+    }
+    #form-container{
+        width: 100%;
+        
+    }
+    #form-container form button{
+        font-size: 15px;
+        height: 2.5rem;
+        width: 8rem;
+        margin-bottom: 2%;
+        margin-left: 7rem;
+    }
+    #en,#phn,#hm{
+        margin-left: 4rem;
+        color: white;
+     }
+    #contact-container p,#contact-container #en-p{
+        margin-top: 3%;
+        margin-left: 4rem;
+    }
+    #contact-container h2{
+        margin-top: 3rem;
+    } 
+    #contact-container{
+        margin-bottom: 5rem;
+    }
+}
+.contact-heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    padding-top: 5rem;
+    font-size: 2.2rem;
+}
+.contact-heading span{
+    color: orange;
+}
+
+.contact-me{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(12, 11, 11);
+}
+.form{
+    width: 60%;
+    margin-top: 2rem;
+}
+.form form button{
+    font-size: medium;
+    border: 1px solid white;
+    background: linear-gradient(177deg, orange 0%, orange 2%, orange 42%, rgb(222, 175, 87) 95%);
+    color: black;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    cursor: pointer;
+    box-shadow: rgba(250, 248, 248, 0.35) 0px 5px 15px;
+}
+.form form button:hover{
+    
+    
+    transform: scale(1.15);
+}
+
+.fa-envelope,.fa-phone, .fa-home{
+   margin-left: 3rem;
+   color: white;
+}
+.contact{
+    margin-top: 1.5rem;
+}
+.contact p,.contact .contact-mail{
+    color: white;
+    margin-left: 5rem;
+    margin-top: 3%;
+    font-size: large;
+    
+}
+.contact .contact-mail:hover{
+    color: orange;
+    cursor: pointer;
+}
+.contact h2{
+    color: white;
+    margin-top: 5rem;
+}
+
+
